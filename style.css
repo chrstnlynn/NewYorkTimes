@@ -1,0 +1,241 @@
+/*Christine Whitlock*/
+
+body, article {
+    font-family: "nyt-imperial,georgia,'times new roman',times,serif";
+    line-height: 1.5em;
+    font-size: 1.0625em;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+main {
+    text-align: left;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+main p  {
+    margin-left: 380px;
+    width: 600px;
+}
+
+main h4 {
+    margin-left: 380px;
+}
+
+main h5 {
+    margin-left: 380px;
+    width: 980px;
+    margin-right: 480px;
+}
+
+main h6 {
+    margin-left: 380px;
+    margin-right: 400px
+}
+
+div h1 {
+    text-align: center;
+}
+
+.space {
+    margin-right: 700px;
+}
+div img {
+    width: 945px;
+    height:531.56px;
+    margin-right: auto;
+    margin-left: auto;
+	position: relative;
+    top: 2px;
+    display: block;
+}
+
+.inflation img{
+    width: 600px;
+    height: 648px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 2px;
+    display: block;
+}
+
+.cosmos img{
+    width: 600px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 2px;
+    display: block;
+}
+
+.icons img{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    display: inline-flex;
+    margin-left: 440px;
+}
+
+.icons a:link {
+    text-decoration: none;
+}
+
+.end img{
+    width: 30px;
+    height: 50px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+    display: inline;
+}
+
+#times img{
+    width: 220px;
+    height: 30px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end {
+    position: relative;
+}
+
+.end a:link {
+    text-decoration: none;
+}
+
+.end button {
+    background-color: rgb(75, 148, 182);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 62px;
+    border-radius: 3px;
+    border: 1px solid rgb(44, 87, 107);
+}
+.body-footer {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 85px;
+    margin-right: 60px;
+}
+
+.body-footer a:link {
+    text-decoration: none;
+}
+
+.footer img{
+    position: relative;
+    margin-left: 60px;
+    margin-right: 0px;
+    width: 220px;
+    height: 36px;
+}
+
+.footer a:link {
+    text-decoration: none;
+}
+
+#content {
+    float: right;
+}
+th {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.bottom {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: rgb(206, 205, 205);
+}
+
+.bottom a:link {
+    text-decoration: none;
+}
+
+.bottom a:visited {
+    color: rgb(206, 205, 205);
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;
+    height: 48px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    float: left;
+    margin: 0 auto;
+    padding: 4px 15px 2px;
+}
+  
+.nav a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+  
+.nav a:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#right-content {
+    float: right;
+}
+
+#right-content button {
+    background-color: rgb(75, 148, 182);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(44, 87, 107);
+    margin-right: 15px;
+}
+
+
+.vl {
+    border-left: 2px solid rgb(228, 227, 227);
+    height: 50px;
+    position: absolute;
+    left: 80%;
+    margin-left: 2x;
+    top: 90px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.flex-container > div {
+    width: 100px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+}
+
